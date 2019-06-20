@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using APIProdutos.Business;
 using APIProdutos.Data;
 using APIProdutos.Infra;
 using GraphQL;
@@ -17,9 +18,13 @@ namespace APIProdutos.Controllers
     {
         private readonly ApplicationDbContext _db;
 
-        public GraphQLController(ApplicationDbContext db)
+        private readonly ProdutoService _produtoService;
+
+
+        public GraphQLController(ApplicationDbContext db, ProdutoService produtoService)
         {
             _db = db;
+            _produtoService = produtoService;
         }
 
         [HttpPost]
@@ -29,7 +34,8 @@ namespace APIProdutos.Controllers
 
             var schema = new Schema()
             {
-                Query = new EatMoreQuery(_db)
+                Query = new EatMoreQuery(_db),
+                Mutation = new AppMutation(_produtoService)
             };
 
             var result = await new DocumentExecuter().ExecuteAsync(_ =>

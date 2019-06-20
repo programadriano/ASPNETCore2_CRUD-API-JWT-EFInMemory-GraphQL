@@ -16,6 +16,6 @@
             set => _nome = value?.Trim();
         }
 
-        public double Preco { get; set; }
+        public decimal Preco { get; set; }
     }
 }

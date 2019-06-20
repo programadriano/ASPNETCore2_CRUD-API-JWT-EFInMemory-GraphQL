@@ -1,4 +1,6 @@
-﻿using APIProdutos.Data;
+﻿using APIProdutos.Business;
+using APIProdutos.Data;
+using APIProdutos.Models;
 using APIProdutos.Models.Schemas;
 using GraphQL.Types;
 using System;
@@ -9,7 +11,8 @@ using System.Threading.Tasks;
 namespace APIProdutos.Infra
 {
     public class EatMoreQuery : ObjectGraphType
-    {
+    {       
+
         public EatMoreQuery(ApplicationDbContext db)
         {
 
@@ -30,12 +33,13 @@ namespace APIProdutos.Infra
                resolve: context =>
                {
                    var codigoDeBarras = context.GetArgument<string>("codigoDeBarras");
-                   var campeonato = db
-                       .Produtos                     
+                   var produto = db
+                       .Produtos
                        .FirstOrDefault(i => i.CodigoBarras == codigoDeBarras);
-                   return campeonato;
+                   return produto;
                });
 
         }
+       
     }
 }
