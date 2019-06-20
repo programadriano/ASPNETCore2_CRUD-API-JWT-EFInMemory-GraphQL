@@ -1,0 +1,11 @@
+C:\thiago_projetos\meetup\ASPNETCore2_CRUD-API-JWT-EFInMemory\APIProdutos\bin\Debug\netcoreapp2.0\APIProdutos.deps.json
+C:\thiago_projetos\meetup\ASPNETCore2_CRUD-API-JWT-EFInMemory\APIProdutos\bin\Debug\netcoreapp2.0\APIProdutos.runtimeconfig.json
+C:\thiago_projetos\meetup\ASPNETCore2_CRUD-API-JWT-EFInMemory\APIProdutos\bin\Debug\netcoreapp2.0\APIProdutos.runtimeconfig.dev.json
+C:\thiago_projetos\meetup\ASPNETCore2_CRUD-API-JWT-EFInMemory\APIProdutos\bin\Debug\netcoreapp2.0\APIProdutos.dll
+C:\thiago_projetos\meetup\ASPNETCore2_CRUD-API-JWT-EFInMemory\APIProdutos\bin\Debug\netcoreapp2.0\APIProdutos.pdb
+C:\thiago_projetos\meetup\ASPNETCore2_CRUD-API-JWT-EFInMemory\APIProdutos\obj\Debug\netcoreapp2.0\APIProdutos.csprojAssemblyReference.cache
+C:\thiago_projetos\meetup\ASPNETCore2_CRUD-API-JWT-EFInMemory\APIProdutos\obj\Debug\netcoreapp2.0\APIProdutos.csproj.CoreCompileInputs.cache
+C:\thiago_projetos\meetup\ASPNETCore2_CRUD-API-JWT-EFInMemory\APIProdutos\obj\Debug\netcoreapp2.0\APIProdutos.AssemblyInfoInputs.cache
+C:\thiago_projetos\meetup\ASPNETCore2_CRUD-API-JWT-EFInMemory\APIProdutos\obj\Debug\netcoreapp2.0\APIProdutos.AssemblyInfo.cs
+C:\thiago_projetos\meetup\ASPNETCore2_CRUD-API-JWT-EFInMemory\APIProdutos\obj\Debug\netcoreapp2.0\APIProdutos.dll
+C:\thiago_projetos\meetup\ASPNETCore2_CRUD-API-JWT-EFInMemory\APIProdutos\obj\Debug\netcoreapp2.0\APIProdutos.pdb
